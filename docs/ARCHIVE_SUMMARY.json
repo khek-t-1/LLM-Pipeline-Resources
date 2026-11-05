@@ -1,0 +1,191 @@
+{
+  "source": "https://gofile.io/d/IQ22UNfo",
+  "archive": "llm-resources-full.zip",
+  "archiveBytes": 14095115088,
+  "archiveMd5": "7fbd96c0a166300db65dfccc850c30ab",
+  "entries": 79465,
+  "files": 79465,
+  "directories": 0,
+  "uncompressedBytes": 14068125258,
+  "compressedPayloadBytes": 14068125258,
+  "topLevel": [
+    "llm-resources"
+  ],
+  "largestFiles": [
+    {
+      "path": "llm-resources/datasets/HuggingFaceFW__fineweb/sample/10BT/000_00000.parquet",
+      "bytes": 2147292183,
+      "compressed_bytes": 2147292183,
+      "directory": false,
+      "crc32": "8a058b65"
+    },
+    {
+      "path": "llm-resources/datasets/HuggingFaceFW__fineweb/sample/10BT/014_00000.parquet",
+      "bytes": 574962194,
+      "compressed_bytes": 574962194,
+      "directory": false,
+      "crc32": "0fa5acd9"
+    },
+    {
+      "path": "llm-resources/datasets/HuggingFaceFW__fineweb-edu/sample/10BT/013_00000.parquet",
+      "bytes": 540632672,
+      "compressed_bytes": 540632672,
+      "directory": false,
+      "crc32": "eb75f2d9"
+    },
+    {
+      "path": "llm-resources/datasets/allenai__tulu-3-sft-mixture/data/train-00001-of-00006.parquet",
+      "bytes": 477019443,
+      "compressed_bytes": 477019443,
+      "directory": false,
+      "crc32": "27958d2a"
+    },
+    {
+      "path": "llm-resources/datasets/PleIAs__common_corpus/common_corpus_1/subset_100_4.parquet",
+      "bytes": 437586876,
+      "compressed_bytes": 437586876,
+      "directory": false,
+      "crc32": "87c9194a"
+    },
+    {
+      "path": "llm-resources/datasets/PleIAs__common_corpus/common_corpus_1/subset_100_10.parquet",
+      "bytes": 434216812,
+      "compressed_bytes": 434216812,
+      "directory": false,
+      "crc32": "e77721fa"
+    },
+    {
+      "path": "llm-resources/datasets/PleIAs__common_corpus/common_corpus_1/subset_100_2.parquet",
+      "bytes": 432006255,
+      "compressed_bytes": 432006255,
+      "directory": false,
+      "crc32": "6ff4cc4f"
+    },
+    {
+      "path": "llm-resources/datasets/PleIAs__common_corpus/common_corpus_1/subset_100_1.parquet",
+      "bytes": 429962586,
+      "compressed_bytes": 429962586,
+      "directory": false,
+      "crc32": "caa280c4"
+    },
+    {
+      "path": "llm-resources/datasets/PleIAs__common_corpus/common_corpus_1/subset_100_3.parquet",
+      "bytes": 426056523,
+      "compressed_bytes": 426056523,
+      "directory": false,
+      "crc32": "c760b542"
+    },
+    {
+      "path": "llm-resources/datasets/PleIAs__common_corpus/common_corpus_1/subset_100_5.parquet",
+      "bytes": 424090812,
+      "compressed_bytes": 424090812,
+      "directory": false,
+      "crc32": "a76faf53"
+    },
+    {
+      "path": "llm-resources/datasets/allenai__tulu-3-sft-mixture/data/train-00000-of-00006.parquet",
+      "bytes": 361046463,
+      "compressed_bytes": 361046463,
+      "directory": false,
+      "crc32": "cce73832"
+    },
+    {
+      "path": "llm-resources/datasets/allenai__Dolci-Instruct-SFT/data/train-00011-of-00015.parquet",
+      "bytes": 261536939,
+      "compressed_bytes": 261536939,
+      "directory": false,
+      "crc32": "5d2e91c8"
+    },
+    {
+      "path": "llm-resources/datasets/allenai__tulu-3-sft-mixture/data/train-00003-of-00006.parquet",
+      "bytes": 162138577,
+      "compressed_bytes": 162138577,
+      "directory": false,
+      "crc32": "131e66d1"
+    },
+    {
+      "path": "llm-resources/datasets/allenai__Dolci-Instruct-SFT/data/train-00002-of-00015.parquet",
+      "bytes": 150825987,
+      "compressed_bytes": 150825987,
+      "directory": false,
+      "crc32": "4d59e456"
+    },
+    {
+      "path": "llm-resources/datasets/allenai__Dolci-Instruct-SFT/data/train-00006-of-00015.parquet",
+      "bytes": 150769558,
+      "compressed_bytes": 150769558,
+      "directory": false,
+      "crc32": "c4b5e9ef"
+    },
+    {
+      "path": "llm-resources/datasets/allenai__Dolci-Instruct-SFT/data/train-00008-of-00015.parquet",
+      "bytes": 150609447,
+      "compressed_bytes": 150609447,
+      "directory": false,
+      "crc32": "aa9b9d84"
+    },
+    {
+      "path": "llm-resources/datasets/allenai__Dolci-Instruct-SFT/data/train-00003-of-00015.parquet",
+      "bytes": 150435633,
+      "compressed_bytes": 150435633,
+      "directory": false,
+      "crc32": "de62d1db"
+    },
+    {
+      "path": "llm-resources/datasets/allenai__Dolci-Instruct-SFT/data/train-00000-of-00015.parquet",
+      "bytes": 150342005,
+      "compressed_bytes": 150342005,
+      "directory": false,
+      "crc32": "0ee41dc6"
+    },
+    {
+      "path": "llm-resources/datasets/allenai__Dolci-Instruct-SFT/data/train-00004-of-00015.parquet",
+      "bytes": 150220626,
+      "compressed_bytes": 150220626,
+      "directory": false,
+      "crc32": "732880c3"
+    },
+    {
+      "path": "llm-resources/datasets/allenai__Dolci-Instruct-SFT/data/train-00005-of-00015.parquet",
+      "bytes": 150125065,
+      "compressed_bytes": 150125065,
+      "directory": false,
+      "crc32": "e14ec100"
+    },
+    {
+      "path": "llm-resources/datasets/allenai__Dolci-Instruct-SFT/data/train-00007-of-00015.parquet",
+      "bytes": 150019281,
+      "compressed_bytes": 150019281,
+      "directory": false,
+      "crc32": "a88c87cf"
+    },
+    {
+      "path": "llm-resources/datasets/allenai__Dolci-Instruct-SFT/data/train-00001-of-00015.parquet",
+      "bytes": 149881504,
+      "compressed_bytes": 149881504,
+      "directory": false,
+      "crc32": "d2c5c26c"
+    },
+    {
+      "path": "llm-resources/datasets/allenai__tulu-3-sft-mixture/data/train-00004-of-00006.parquet",
+      "bytes": 149552548,
+      "compressed_bytes": 149552548,
+      "directory": false,
+      "crc32": "8a06a0b4"
+    },
+    {
+      "path": "llm-resources/datasets/allenai__tulu-3-sft-mixture/data/train-00002-of-00006.parquet",
+      "bytes": 146926607,
+      "compressed_bytes": 146926607,
+      "directory": false,
+      "crc32": "70ab033c"
+    },
+    {
+      "path": "llm-resources/repos/learn/assignment5-alignment/.git/objects/pack/pack-f6b444969a83838c0c4028592f7f98d518304d20.pack",
+      "bytes": 133479826,
+      "compressed_bytes": 133479826,
+      "directory": false,
+      "crc32": "fe3f567f"
+    }
+  ]
+}
