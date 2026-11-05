@@ -193,16 +193,17 @@ class GitHub:
         if response.status_code not in (200, 204):
             raise RuntimeError(f'Could not delete asset {asset["name"]}: {response.text[:400]}')
 
-    def upload(self, upload_base: str, path: Path, expected_size: int | None = None) -> dict:
+    def upload(self, upload_base: str, path: Path, expected_size: int | None = None, asset_name: str | None = None) -> dict:
         size = path.stat().st_size if expected_size is None else expected_size
+        upload_name = asset_name or path.name
         last_error = ''
         for attempt in range(1, 7):
             try:
-                log(f'  Upload attempt {attempt}: {path.name} ({size / 1024**2:.1f} MiB)')
+                log(f'  Upload attempt {attempt}: {upload_name} ({size / 1024**2:.1f} MiB)')
                 with path.open('rb') as handle:
                     response = self.request(
                         'POST', upload_base,
-                        params={'name': path.name},
+                        params={'name': upload_name},
                         headers={'Content-Type': 'application/octet-stream'},
                         data=handle,
                         timeout=(20, 600),
@@ -218,7 +219,7 @@ class GitHub:
             log(f'  Upload retry needed: {last_error}')
             if attempt < 6:
                 time.sleep(min(45, 2 ** attempt))
-        raise RuntimeError(f'Upload failed for {path.name}: {last_error}')
+        raise RuntimeError(f'Upload failed for {upload_name}: {last_error}')
 
 
 def gofile_source() -> tuple[requests.Session, str, str]:
@@ -354,7 +355,7 @@ def main() -> int:
             log('  Asset already on GitHub; hash recovered from source, upload skipped.')
             skipped.append(name)
         else:
-            asset = github.upload(upload_base, TEMP_PART, expected)
+            asset = github.upload(upload_base, TEMP_PART, expected, asset_name=name)
             existing[name] = asset
             uploaded.append(name)
         state['parts'][str(index)] = {
